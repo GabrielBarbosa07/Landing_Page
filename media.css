@@ -1,0 +1,49 @@
+@media (max-width:973px){
+    header{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .links{
+        flex-wrap: wrap;
+        padding-right: 9px;
+    }
+    .conteudo{
+        margin-top: 27px;
+    }
+
+    .conteudo p{
+        flex-direction: column;
+        width: 93%;
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .links ul{
+        margin: 0px 5px;
+    }
+    .links ul li a{
+        padding: 5px 0px;
+        border-radius: 11px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    form{
+        margin: 0 auto;
+    }
+    article{
+        display: none;
+    }
+    form{
+        margin-top: 70px;
+    }
+    .nome{
+        align-self: center;
+    }
+    .email{
+        align-self: center;
+    }
+    .btn{
+        align-self: center;
+    }
+  
+}

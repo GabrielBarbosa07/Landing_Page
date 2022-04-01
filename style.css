@@ -1,0 +1,112 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none ;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+    min-width: 530px;
+    margin: 0 auto;
+}
+img{
+    max-width:580px ;
+    display: block;
+}
+.cabeçalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-weight:normal;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+.links ul li {
+    display: flex;
+    justify-content: space-evenly;
+    outline: none;
+}
+
+.links ul li a{
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-right: 25px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.links ul li a:hover{
+    background-color: rgb(132, 14, 201);
+    transition: 0.5s all;
+    color: white;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:100px ;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+.nome, .email{
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    width: 60%;
+    cursor:pointer;
+}
+h2{
+    font-size: 56px;
+    color: white;
+}
+span{
+    color: rgb(132, 14, 201);
+}
+p{
+    color: white;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+    margin-bottom: 12px;
+}
+.btn{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(132, 14, 201);
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.btn:hover{
+    background-color: rgba(132, 14, 201, 0.739);
+    cursor:pointer;
+}
