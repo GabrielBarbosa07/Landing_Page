@@ -1,31 +1,42 @@
+@media (max-width:1500px){
+    main article img{
+        padding: 0 20px;
+    }
+    .logo{
+        padding-left: 20px;
+        }
+}
+
 @media (max-width:973px){
     header{
         flex-direction: column;
         flex-wrap: wrap;
     }
+
+    header .logo{
+        margin-bottom: 10px;
+    }
     .links{
         flex-wrap: wrap;
-        padding-right: 9px;
+        padding: 0 20px;
     }
     .conteudo{
         margin-top: 27px;
+        padding: 20px;
     }
 
     .conteudo p{
-        flex-direction: column;
-        width: 93%;
         margin-top: 20px;
-        margin-right: 0px;
     }
     .links ul{
         margin: 0px 5px;
     }
-    .links ul li a{
+    .links ul li {
         padding: 5px 0px;
         border-radius: 11px;
     }
     h2{
-        font-size: 38px;
+        font-size: 50px;
     }
     form{
         margin: 0 auto;
@@ -36,14 +47,16 @@
     form{
         margin-top: 70px;
     }
-    .nome{
-        align-self: center;
-    }
-    .email{
-        align-self: center;
-    }
-    .btn{
-        align-self: center;
+    .nome,.email{
+        width: 80%;
     }
   
+}
+@media (max-width:580px){
+    .conteudo p{
+        word-wrap: break-word;
+    }
+    .nome, .email, .btn{
+        width: 100%;
+    }
 }
