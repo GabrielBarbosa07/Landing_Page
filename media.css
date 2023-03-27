@@ -2,9 +2,6 @@
     main article img{
         padding: 0 20px;
     }
-    .logo{
-        padding-left: 20px;
-        }
 }
 
 @media (max-width:973px){
@@ -48,14 +45,14 @@
         margin-top: 70px;
     }
     .nome,.email{
-        width: 80%;
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
     }
   
 }
 @media (max-width:580px){
-    .conteudo p{
-        word-wrap: break-word;
-    }
     .nome, .email, .btn{
         width: 100%;
     }
